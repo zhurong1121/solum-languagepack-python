@@ -1,4 +1,4 @@
-FROM solum/slugrunner
+FROM ubuntu:precise
 MAINTAINER Murali Allada <murali.allada@rackspace.com>
 
 RUN apt-get -ypp update
