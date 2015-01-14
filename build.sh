@@ -10,4 +10,4 @@ shift
 # TODO: check if pip is installed
 
 # install dependencies from app requirements file
-pip install -r $REQFILE 
+pip install -r $REQFILE
