@@ -6,3 +6,4 @@ RUN apt-get -yqq install python-pip
 RUN apt-get -yqq install python-mysqldb
 
 ADD build.sh /solum/bin/
+RUN chmod +x /solum/bin/build.sh
